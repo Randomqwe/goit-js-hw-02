@@ -1,6 +1,7 @@
 function formatMessage(message, maxLength) {
   message = String(message);
   maxLength = Number(maxLength);
+
   if (message.length <= maxLength) {
     return message;
   } else {
